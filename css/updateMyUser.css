@@ -1,0 +1,51 @@
+#update-profile-container {
+    grid-template-areas:
+            'profileTitle profileImage'
+            'picForm picForm'
+            'profileMessage profileMessage'
+            'updateForm updateForm';
+
+    /*- BACKGROUND --------*/
+    background-color: red;
+    /*---------------------*/
+
+    /*- SIZE --------------*/
+    height: max-content;
+    width: 725px;
+    text-align: center;
+    /*---------------------*/
+
+    /*- POSITION ----------*/
+    padding: 10px;
+    margin-top: 5px;
+    position:relative;
+    /*---------------------*/
+}
+
+.update-item{
+    height: 20px;
+    width: 690px;
+    margin : 5px 0px 5px 0px;
+    padding: 5px 5px 5px 10px;
+    color: black;
+}
+
+#form-update-info{
+    position: relative;
+    background-color: red;
+    margin-bottom: 0px;
+}
+
+.confirm-info-account{
+    display:inline;
+    background-color: #1F1F1F;
+    color: red;
+    border: none;
+    font-weight: bold;
+
+    height: 40px;
+    width: 150px;
+}
+.confirm-info-account:hover{
+    background-color: black;
+}

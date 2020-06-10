@@ -1,0 +1,109 @@
+/* ESTILO DE LA PÁGINA 'myUser' */
+
+#my-profile-container{
+    grid-template-areas:
+            'profileTitle profileImage'
+            'profileMessage profileMessage'
+            'profileInfo profileInfo'
+            'profileAddressInfo profileAddressInfo';
+
+    /*- BACKGROUND --------*/
+    background-color: red;
+    /*---------------------*/
+
+    /*- SIZE --------------*/
+    height: max-content;
+    width: 725px;
+    text-align: center;
+    /*---------------------*/
+
+    /*- POSITION ----------*/
+    padding: 10px;
+    margin-top: 5px;
+    position:relative;
+    /*---------------------*/
+}
+#profile-title{
+    background-color: red;
+    width: 350px;
+    height: auto;
+}
+
+.profile-panel-titles{
+    text-align: left;
+    color: white;
+    font-size: x-large;
+}
+
+#profile-image{
+    background-color: red;
+    width: 350px;
+    height: max-content;
+    text-align: right;
+}
+
+#im-profile-image {
+    width: 125px;
+}
+
+#profile-message{
+    background-color: white;
+    width: 100%;
+    height: max-content;
+}
+
+#profile-info, #update-profile-info{
+    background-color: red;
+    width: 100%;
+    height: max-content;
+}
+
+#profile-address-info, #update-address-info{
+    background-color: red;
+    width: 100%;
+    height: max-content;
+}
+
+#account-information, #account-address-information, #update-account-information, #update-address-information{
+    background-color: red;
+    position: relative;
+    height: max-content;
+    width: auto;
+    margin: 2px 0px 2px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#account-address-information, #update-address-information{
+    margin-bottom: 10px;
+}
+
+.info-title{
+    margin-bottom: 2px;
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    padding: 5px 5px 5px 10px;
+    color: white;
+}
+.info-item{
+    height: max-content;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    padding: 5px 5px 5px 10px;
+    color: red;
+}
+
+#update-info-account{
+    display:inline;
+    background-color: #1F1F1F;
+    color: red;
+    border: none;
+    font-weight: bold;
+
+    height: 40px;
+    width: 150px;
+}
+#update-info-account:hover{
+    background-color: black;
+}

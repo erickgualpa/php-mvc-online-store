@@ -1,0 +1,63 @@
+#my-commands-panel{
+    position: relative;
+    background-color: red;
+    margin-top: 5px;
+    width: 800px;
+}
+
+#my-commands-title{ /*Título principal*/
+    color: black;
+    font-size: x-large;
+}
+
+#my-command{ /*Corresponde al panel de cada pedido*/
+    background-color: black;
+    width: max-content;
+    position: relative;
+    text-align: left;
+    margin: 5px 5px 5px 5px;
+}
+
+.command-date{
+    width: 100%;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.command-product { /*Producto de cada comanda*/
+    grid-template-areas:
+            'commandImage commandProduct'
+            'commandImage commandProductQuantity'
+            'commandImage commandProductPrice';
+    background-color: white;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    /*- SIZE --------------*/
+    width: 650px;
+    text-align: left;
+    /*---------------------*/
+
+    /*- POSITION-----------*/
+    position: relative;
+    margin: 0px 0px 5px 0px;
+}
+
+.command-product-item, .command-product-q, .command-product-price{
+    width: 200px;
+}
+
+.command-image{
+    padding: 0px 0px 0px 100px;
+    width: 120px;
+}
+.command-image img{
+    width:100px;
+}
+
+
+
+
+
+

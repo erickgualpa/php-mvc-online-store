@@ -1,0 +1,153 @@
+/* ESTILO GENERAL */
+
+/*- CONTAINERS -----------*/
+input{
+    height: 25px;
+}
+
+a{ text-decoration: none; }
+
+.grid-container {
+    background-color: white;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    /*- POSITION-----------*/
+    position: absolute;
+    padding: 5px;
+    left: 0;
+    right: 0;
+    margin: auto auto 75px auto;
+    /*---------------------*/
+}
+
+.flex-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    right: 0;
+    margin: auto auto 75px auto;
+}
+
+.message{
+    color: red;
+    text-align: center;
+}
+/*------------------------*/
+
+::placeholder {
+    font-family: "Arial Black";
+}
+
+body {
+	/*- BACKGROUND --------*/
+	background: black;
+	/*---------------------*/
+	font-family: "Arial Black";
+	position: relative;
+}
+
+/*- HEADER ----------------*/
+header {
+	position: relative;
+    height:550px;
+
+    /*- BACKGROUND --------*/
+    background-image: url("../img/ali-banner.jpg") ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*---------------------*/
+}
+
+header div {
+	display: inline-block;
+}
+
+/*- CART FOOTER ------------*/
+#cart-footer {
+    /*display:none*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#command-summary{
+    height: 50px;
+    width:100%;
+}
+
+.command-summary-box{
+    width: min-content;
+}
+
+#command-summary-title{
+    width:15%;
+}
+/*--------------------------*/
+
+#user-operations{
+    height: min-content;
+	position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+#user-operations div {
+	background: red;
+    width: 100px;
+    height: 60px;
+
+    /*- POSITION ----------*/
+    position: relative;
+    text-align: center;
+    display: block;
+    /*---------------------*/
+}
+#user-operations div a{
+    position: absolute;
+    vertical-align: middle;
+    left: 0px;
+    right: 0px;
+    bottom: 20px;
+    color:black;
+}
+/*-------------------------*/
+
+/*- OPTIONS PANEL ---------*/
+#options-panel{
+    display: none;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    background-color: darkred;
+    width:  max-content;
+    z-index: 1; /*show panel in front*/
+}
+.user-option {
+    background-color: darkred;
+    position: relative;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+
+.user-option a {
+    color: black;
+}
+/*-------------------------*/
+

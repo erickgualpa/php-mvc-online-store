@@ -1,0 +1,28 @@
+/* MEDIA QUERIES*/
+@media  screen and (max-width: 650px)  {
+
+    #ali-logo{height: 75px;}
+
+    header {
+        height: 200px;
+    }
+    .flex-container, .grid-container {
+        display: block;
+    }
+
+    #container-categories div{
+        height: 200px;
+    }
+
+    #products-container .product{
+        width: 200px;
+        height: max-content;
+    }
+
+    #products-container .product img {
+        width: 150px;
+        height: 150px;
+    }
+
+
+}

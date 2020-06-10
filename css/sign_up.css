@@ -1,0 +1,35 @@
+/* ESTILO EN LA HOJA DE SIGN UP */
+
+#sign-up-container {
+    grid-template-areas: 
+    	'nombre email' 
+    	'password password' 
+    	'direccion direccion' 
+    	'poblacion codigoPostal' 
+    	'submit submit';
+    /*- POSITION-----------*/
+    width: 60%;
+    padding: 10px;
+    /*---------------------*/
+
+    /*- BACKGROUND --------*/
+    background: red;
+    /*---------------------*/
+}
+
+#sign-up-container input {
+
+    /*- BACKGROUND --------*/
+    background-color: white;
+    /*---------------------*/
+
+    /*- POSITION ----------*/
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+    /*---------------------*/
+
+    color: black;
+}
+
+
