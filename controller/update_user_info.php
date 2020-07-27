@@ -1,5 +1,5 @@
 <?php
-// controller/updateUserInfo.php
+// controller/update_user_info.php
 require_once(__DIR__."/../model/connectDB.php");
 require_once(__DIR__."/../model/dbManager.php");
 
@@ -21,4 +21,4 @@ if(isset($_GET["update-image"]) && $_GET["update-image"] == true){
 }
 
 $user_profile_image = $result_set_user_info["profile_image"];
-require_once(__DIR__."/../view/updateUserInfo.php");
+require_once(__DIR__."/../view/update_user_info.php");
