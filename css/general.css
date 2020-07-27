@@ -62,7 +62,7 @@ header {
     height:550px;
 
     /*- BACKGROUND --------*/
-    background-image: url("../img/ali-banner.jpg") ;
+    background-image: url("../img/banner.jpg") ;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,4 +150,3 @@ header div {
     color: black;
 }
 /*-------------------------*/
-

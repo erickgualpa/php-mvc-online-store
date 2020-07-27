@@ -1,5 +1,5 @@
 <?php
-//controller/start_session.php
+// controller/start_session.php
 require_once(__DIR__."/../model/connectDB.php");
 require_once(__DIR__."/../model/dbManager.php");
 

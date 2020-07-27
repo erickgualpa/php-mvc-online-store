@@ -1,10 +1,12 @@
 function loadProducts(category_id) {
     var xmlhttp;
+
     if (window.XMLHttpRequest){
         xmlhttp = new XMLHttpRequest();
     }else{
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
+
     var category_id = category_id.toString();
 
     xmlhttp.onreadystatechange = function() {
@@ -12,6 +14,7 @@ function loadProducts(category_id) {
             document.getElementById("main-content").innerHTML = xmlhttp.responseText;
         }
     }
+
     //xmlhttp.open("GET", "controller/list_products.php?category=" + category_id, true);
     xmlhttp.open("GET", "index.php?action=list-products&category=" + category_id, true);
     xmlhttp.send();
@@ -19,11 +22,13 @@ function loadProducts(category_id) {
 
 function loadProductInfo(product_id, add_product) {
     var xmlhttp;
+
     if (window.XMLHttpRequest){
         xmlhttp = new XMLHttpRequest();
     }else{
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
+
     var product_id = product_id.toString();
 
     xmlhttp.onreadystatechange = function() {
@@ -31,22 +36,22 @@ function loadProductInfo(product_id, add_product) {
             document.getElementById("main-content").innerHTML = xmlhttp.responseText;
         }
     }
+
     //xmlhttp.open("GET", "controller/product.php?product=" + product_id, true);
-
     xmlhttp.open("GET", "index.php?action=product-info&product=" + product_id, true);
-
     xmlhttp.send();
 }
 
 function addProductToCart(product_id){
     var price = $("#product-price").html();
-
     var xmlhttp;
+
     if (window.XMLHttpRequest){
         xmlhttp = new XMLHttpRequest();
     }else{
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
+
     var product_id = product_id.toString();
 
     xmlhttp.onreadystatechange = function() {
@@ -54,6 +59,7 @@ function addProductToCart(product_id){
             document.getElementById("summary").innerHTML = xmlhttp.responseText;
         }
     }
+
     //xmlhttp.open("GET", "controller/product.php?product=" + product_id, true);
     xmlhttp.open("GET", "index.php?action=add-product&product=" + product_id + "&price=" + price, true);
     xmlhttp.send();
@@ -61,6 +67,7 @@ function addProductToCart(product_id){
 
 function setCommand(){
     var xmlhttp;
+
     if (window.XMLHttpRequest){
         xmlhttp = new XMLHttpRequest();
     }else{
@@ -72,10 +79,9 @@ function setCommand(){
             document.getElementById("main-content").innerHTML = xmlhttp.responseText;
         }
     }
+
     //xmlhttp.open("GET", "controller/product.php?product=" + product_id, true);
-
     xmlhttp.open("GET", "index.php?action=set-command", true);
-
     xmlhttp.send();
 }
 
@@ -87,7 +93,7 @@ function hideCartSummary() {
     document.getElementById('cart-footer').style.display = 'none';
 }
 
-// Validación del usuario en la parte del servidor
+// User validation from server side
 $(function() {
     var validName = false;
     var validEmail = false;
@@ -127,7 +133,7 @@ $(function() {
         var validN = patt.test(name);
 
         if (!validN || name.length < 1) {
-            //alert("El nombre de usuario que has introducido no es válido.");
+            //alert("The username you introduced is not valid");
         }else{
             validName = true;
         }
@@ -139,7 +145,7 @@ $(function() {
         var validE = patt.test(email);
 
         if (!validE || email.length < 1) {
-            //alert("El email que has introducido no es válido.");
+            //alert("The email address you introduced is not valid");
         }else{
             validEmail = true;
         }
@@ -151,7 +157,7 @@ $(function() {
         var valid = patt.test(password);
 
         if (!valid || password.length < 1) {
-            //alert("La contraseña que has introducido no es válida.");
+            //alert("The password you introduced is not valid");
         }else{
             validPassword = true;
         }
@@ -163,7 +169,7 @@ $(function() {
         var valid = patt.test(address);
 
         if (!valid || address.length < 1 || address.length > 30){
-            //alert("La dirección que has introducido no es válido.");
+            //alert("The address you introduced is not valid");
         }else{
             validAddress = true;
         }
@@ -175,7 +181,7 @@ $(function() {
         var valid = patt.test(town);
 
         if (!valid || town.length < 1 || town.length > 30 ){
-            //alert("La población que has introducido no es válido.");
+            //alert("The town name you introduced is not valid");
         }else{
             validTown = true;
         }
@@ -187,7 +193,7 @@ $(function() {
         var valid = patt.test(postalCode);
 
         if (!valid || postalCode.length < 1){
-            //alert("El código postal que has introducido no es válido.")
+            //alert("The postal code you introduced is not valid")
         }else{
             validPostalCode = true;
         }
@@ -195,13 +201,12 @@ $(function() {
 
     $("#sign-up-container").submit(function() {
         if (!validName || !validEmail || !validPassword ||!validAddress || !validTown || !validPostalCode){
-            //alert("Por favor, vuelve a intentarlo. Alguno de los campos no era correcto.");
+            //alert("Please, try again. Some of the fields are wrong");
         }
     });
 });
 
-// Mostrar menú desplegable de usuario
-
+// Show user dropdown menu
 $(document).ready(
     function(){
         var userBoxValue = $("#user-box").html();
@@ -213,7 +218,3 @@ $(document).ready(
             });
     }
 });
-
-
-
-
