@@ -12,11 +12,11 @@
     <link rel="stylesheet" type="text/css" href="css/media_query.css"/>
     <link rel="stylesheet" type="text/css" href="css/cart.css"/>
     <link rel="stylesheet" type="text/css" href="css/command.css"/>
-    <link rel="stylesheet" type="text/css" href="css/myUser.css"/>
-    <link rel="stylesheet" type="text/css" href="css/updateMyUser.css"/>
-    <link rel="stylesheet" type="text/css" href="css/myCommands.css"/>
+    <link rel="stylesheet" type="text/css" href="css/my_user.css"/>
+    <link rel="stylesheet" type="text/css" href="css/update_my_user.css"/>
+    <link rel="stylesheet" type="text/css" href="css/my_commands.css"/>
 
-    <link rel="icon" type="image/png" href="img/ali-icon.jpg">
+    <link rel="icon" type="image/png" href="img/icon.jpg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/functions.js"></script>
 

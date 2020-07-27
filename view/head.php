@@ -9,10 +9,8 @@
             <?php
                 if (isset($_SESSION["verified"]) && $_SESSION["verified"] == true){
                     echo "<a href= '/../index.php?action=show-cart'>CART</a>";
-
                 }else{
                     echo "<a href= '/../index.php?action=log-in'>LOG IN</a>";
-
                 }
             ?>
         </div>
@@ -20,10 +18,8 @@
             <?php
                 if (isset($_SESSION["verified"]) && $_SESSION["verified"] == true){
                     echo "<a id ='user-box'href= '/../index.php?action=log-in'>USUARIO</a>";
-
                 }else{
                     echo "<a href= '/../index.php?action=sign-up'>SIGN UP</a>";
-
                 }
             ?>
         </div>
@@ -40,4 +36,3 @@
         <a href="/../index.php?finish-session=true">Cerrar sesión</a>
     </div>
 </div>
-
