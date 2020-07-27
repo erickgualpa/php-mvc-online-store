@@ -3,8 +3,6 @@
     session_start();
     include __DIR__.'/config.php';
 
-    // Path del directorio que almacena todas las imágenes de perfil
-
     if (isset($_GET['action'])){
         $action = $_GET['action'];
     }else{
@@ -33,6 +31,7 @@
         case 'log-in':
             include __DIR__.'/controller/log_in.php';
             break;
+
         case 'start-session':
             include __DIR__.'/controller/start_session.php';
             break;
@@ -50,19 +49,18 @@
             break;
 
         case 'my-user':
-            include __DIR__.'/controller/myUser.php';
+            include __DIR__.'/controller/my_user.php';
             break;
 
         case 'update-user-info':
-            include __DIR__.'/controller/updateUserInfo.php';
+            include __DIR__.'/controller/update_user_info.php';
             break;
 
         case 'my-commands':
-            include __DIR__.'/controller/myCommands.php';
+            include __DIR__.'/controller/my_commands.php';
             break;
 
         default:
-            include __DIR__.'/controller/portada.php';
+            include __DIR__.'/controller/homepage.php';
             break;
     }
-
