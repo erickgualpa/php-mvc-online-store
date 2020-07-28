@@ -1,3 +1,6 @@
+<?php
+// view/homepage.php
+?>
 <!DOCTYPE html>
 <html>
     <?php require(__DIR__."/../view/header.php");?>

@@ -1,11 +1,11 @@
 /* ESTILO EN LA HOJA DE SIGN UP */
 
 #sign-up-container {
-    grid-template-areas: 
-    	'nombre email' 
-    	'password password' 
-    	'direccion direccion' 
-    	'poblacion codigoPostal' 
+    grid-template-areas:
+    	'name email'
+    	'password password'
+    	'address address'
+    	'town postalCode'
     	'submit submit';
     /*- POSITION-----------*/
     width: 60%;
@@ -31,5 +31,3 @@
 
     color: black;
 }
-
-
