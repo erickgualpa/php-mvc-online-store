@@ -11,7 +11,7 @@ Having account that this was a project from college, is easy to find the main co
  - Session 
  - AJAX
  - Responsive view 
- - CRUD actions against a MySQL database using prepared statements.  
+ - CRUD actions against a MySQL database using prepared statements  
 
 ### :small_orange_diamond: Interesting facts
 The theme from the online store project was free choice. In my case, if you do a little research through the files 
