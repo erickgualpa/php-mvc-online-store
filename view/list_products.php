@@ -1,3 +1,6 @@
+<?php
+// view/list_products.php
+?>
 <div id="products-container" class="grid-container">
     <?php
     while($row = $result_set_product_list->fetch_assoc()) {

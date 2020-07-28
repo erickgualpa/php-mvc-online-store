@@ -5,15 +5,15 @@
 <footer id="cart-footer">
     <table id="command-summary">
         <tr>
-            <th id="command-summary-title" class="command-summary-box">RESUMEN DEL PEDIDO</th>
-            <th class="command-summary-box">Número de productos:
+            <th id="command-summary-title" class="command-summary-box">ORDER SUMMARY</th>
+            <th class="command-summary-box">Products amount:
                 <span id="products-amount"><?php
                     if (isset($_SESSION["cart"])){
                         echo count($_SESSION["cart"]);
                     }
                     ?></span>
             </th>
-            <th class="command-summary-box">Importe total:
+            <th class="command-summary-box">Total:
                 <span id="total-amount"><?php
                     if (isset($_SESSION["totalAmount"])){
                         echo $_SESSION["totalAmount"] . "€";

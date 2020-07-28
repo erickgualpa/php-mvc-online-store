@@ -1,6 +1,6 @@
-/* ESTILO PARA EL CART */
+/* CART Style */
 
-#cart-body { /* './grid-container' */
+#cart-body {
     grid-template-areas:
             'messageBanner'
             'yourCart';
@@ -24,6 +24,7 @@
 
 #message-banner{
     background-color: white;
+
     /*- SIZE --------------*/
     width: 600px;
     /*---------------------*/
@@ -31,16 +32,18 @@
     /* POSITION -----------*/
     padding: 0px 20px 0px 20px;
     margin: 2px;
+    position: relative;
     /*---------------------*/
+
     color: red;
     text-align: left;
-
-    position: relative;
 }
 
-/*- YOUR CART PANEL STYLE -----*/
+/*- YOUR CART PANEL Style -----*/
 #your-cart{
     background-color: white;
+    color: red;
+
     /*- SIZE --------------*/
     width: 600px;
     /*---------------------*/
@@ -48,10 +51,9 @@
     /* POSITION -----------*/
     padding: 0px 20px 0px 20px;
     margin: 2px;
-    /*---------------------*/
-    color: red;
     text-align: left;
     position: relative;
+    /*---------------------*/
 }
 
 #products-cart-container{
@@ -61,10 +63,11 @@
     padding: 0px 0px 0px 0px;
 }
 
-#product-cart-grid{ /* './grid-container' */
+#product-cart-grid{
     grid-template-areas: 'productCartImage productCartName productCartPrice'
                          'productCartImage removeCartProduct viewCartProduct'
                          'productCartImage removeCartProduct viewCartProduct';
+
     /*- BACKGROUND --------*/
     background-color: white;
     /*---------------------*/
@@ -128,6 +131,7 @@
 
 #summary-panel{
     background-color: black;
+
     /*- SIZE --------------*/
     width: 600px;
     /*---------------------*/
@@ -135,9 +139,9 @@
     /* POSITION -----------*/
     padding: 0px 20px 0px 20px;
     margin: 2px;
+    position: relative;
     /*---------------------*/
+
     color: red;
     text-align: center;
-
-    position: relative;
 }

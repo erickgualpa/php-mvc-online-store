@@ -1,40 +1,35 @@
-/* ESTILO CATEGORIAS EN PORTADA */
+/* Homepage CATEGORIES Style*/
 
 #container-categories{
-	/*grid-template-areas:
-	'categoria1 categoria1 categoria2'
-    'categoria3 categoria3 categoria4'
-    'categoria5 categoria6 categoria6';
-    */
-
     grid-template-columns: repeat(2, auto);
 
     /*- BACKGROUND --------*/
     background-color: black;
-    /***********************/
+    /*---------------------*/
 
-    /*- DIMENSIONS --------*/
+    /*- SIZE --------------*/
     width: 65%;
     height: auto;
     /*---------------------*/
 }
 
 #container-categories div{
-	/*- BACKGROUND --------*/
+	 /*- BACKGROUND ---------*/
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     /*---------------------*/
 
-    /*- DIMENSIONS --------*/
+    /*- SIZE --------------*/
     height:500px;
     padding: 5px;
     margin: 2px;
     /*---------------------*/
+
     text-align: center;
 }
 
 #container-categories div .category{
-	color:red;
+    color:red;
     font-size: x-large;
 }

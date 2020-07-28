@@ -1,3 +1,6 @@
+<?php
+// view/header.php
+?>
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=yes"/>
@@ -19,5 +22,4 @@
     <link rel="icon" type="image/png" href="img/icon.jpg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/functions.js"></script>
-
 </head>

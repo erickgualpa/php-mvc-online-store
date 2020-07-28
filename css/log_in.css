@@ -1,19 +1,21 @@
-/* HOJA DE ESTILO EN LOG IN */
+/*LOG IN Style*/
 
-#log-in-body { /* Extends '.flex-container' class */
-	background: black;
-    flex-direction: row;
-    /*- POSITION -----------*/
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    /*----------------------*/
+#log-in-body {
+		background: black;
+	  flex-direction: row;
 
+	  /*- POSITION -----------*/
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	  padding-left: 50px;
+	  padding-right: 50px;
+	  /*----------------------*/
 }
+
 #log-in-message{
     padding-right: 60px;
 }
+
 #form-container {
     border-left: 1px solid red;
     padding-left: 60px;
@@ -32,10 +34,12 @@
     height: 40px;
     width: 150px;
 }
+
 .log-in-button a{
     color:black;
     font-weight: bold;
 }
+
 .log-in-button:hover{
     background-color: red;
 }
