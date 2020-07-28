@@ -12,7 +12,7 @@
     <div id="main-content">
         <div id="cart-body" class = "grid-container">
             <div id="message-banner" style = "grid-area: messageBanner;">
-                ¡CONSIGUE ENVIOS GRATIS CON ALI BOXING+, CUANDO QUIERAS Y DONDE QUIERAS!
+                GET FREE SHIPPING WITH ALI BOXING+, WHENEVER AND WHEREVER YOU WANT!
             </div>
             <div id="your-cart" class="flex-container" style = "grid-area: yourCart;">
                 <div id = "your-cart-message">TU CARRITO</div>

@@ -1,6 +1,6 @@
-/* ESTILO PARA LOS PRODUCTOS */
+/*PRODUCT Style*/
 
-#product-info-container { /* './grid-container' */
+#product-info-container {
     grid-template-areas:
             'productImage productName'
             'productImage productDesc'
@@ -24,14 +24,9 @@
 }
 
 #product-info-container div{
-    /*- BACKGROUND --------
-    background-color: black;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    ---------------------*/
-
     background-color: white;
+    color: red;
+
     /*- SIZE --------------*/
     width: 300px;
     /*---------------------*/
@@ -39,11 +34,9 @@
     /* POSITION -----------*/
     padding: 0px 20px 0px 20px;
     margin: 2px;
-    /*---------------------*/
-    color: red;
-    text-align: center;
-
     position: relative;
+    text-align: center;
+    /*---------------------*/
 }
 
 .product.info{
@@ -66,11 +59,7 @@
     letter-spacing: 1px;
     font-weight: bold;
 }
+
 #product-add-cart:hover{
     background-color: black;
 }
-
-
-
-
-

@@ -1,4 +1,4 @@
-/* ESTILO GENERAL */
+/* GENERAL Style */
 
 /*- CONTAINERS -----------*/
 input{
@@ -52,13 +52,14 @@ body {
 	/*- BACKGROUND --------*/
 	background: black;
 	/*---------------------*/
+
 	font-family: "Arial Black";
 	position: relative;
 }
 
 /*- HEADER ----------------*/
 header {
-	position: relative;
+    position: relative;
     height:550px;
 
     /*- BACKGROUND --------*/
@@ -75,7 +76,6 @@ header div {
 
 /*- CART FOOTER ------------*/
 #cart-footer {
-    /*display:none*/
     position: fixed;
     left: 0;
     bottom: 0;
@@ -118,6 +118,7 @@ header div {
     display: block;
     /*---------------------*/
 }
+
 #user-operations div a{
     position: absolute;
     vertical-align: middle;

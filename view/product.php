@@ -1,3 +1,6 @@
+<?php
+// view/product.php
+?>
 <div id="product-info-container" class = "grid-container">
     <?php
     while($row = $result_set_product_info->fetch_assoc()) {
@@ -26,5 +29,4 @@
             echo '<button id = "product-add-cart" style = "grid-area: productAddCart;" onclick="">'.'ADD TO CART'.'</button>';
         }
     ?>
-
 </div>

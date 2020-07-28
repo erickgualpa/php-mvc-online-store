@@ -1,3 +1,5 @@
+/*MY COMMANDS Style*/
+
 #my-commands-panel{
     position: relative;
     background-color: red;
@@ -5,12 +7,12 @@
     width: 800px;
 }
 
-#my-commands-title{ /*Título principal*/
+#my-commands-title{
     color: black;
     font-size: x-large;
 }
 
-#my-command{ /*Corresponde al panel de cada pedido*/
+#my-command{
     background-color: black;
     width: max-content;
     position: relative;
@@ -24,7 +26,7 @@
     color: white;
 }
 
-.command-product { /*Producto de cada comanda*/
+.command-product {
     grid-template-areas:
             'commandImage commandProduct'
             'commandImage commandProductQuantity'
@@ -42,6 +44,7 @@
     /*- POSITION-----------*/
     position: relative;
     margin: 0px 0px 5px 0px;
+    /*---------------------*/
 }
 
 .command-product-item, .command-product-q, .command-product-price{
@@ -55,9 +58,3 @@
 .command-image img{
     width:100px;
 }
-
-
-
-
-
-
