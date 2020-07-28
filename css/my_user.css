@@ -1,4 +1,4 @@
-/* ESTILO DE LA PÁGINA 'myUser' */
+/*MY USER Style*/
 
 #my-profile-container{
     grid-template-areas:
@@ -23,6 +23,7 @@
     position:relative;
     /*---------------------*/
 }
+
 #profile-title{
     background-color: red;
     width: 350px;
