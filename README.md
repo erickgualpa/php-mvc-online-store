@@ -20,6 +20,6 @@ you'll find out that I chose making a boxing material store.
 Even though taking the risk of not being original, I named it Ali Boxing Store in honour to the GOAT.
 
 ### :small_orange_diamond: Considerations
-This repository include some images that are not free to use in a real project. Just as I said, this was a college 
+This repository includes some images that are not free to use in a real project. Just as I said, this was a college 
 project and consequentlly a non-profit project. So, I would like to give the corresponding credits to the owners of 
 the images and the thanks to help complete this work. 
